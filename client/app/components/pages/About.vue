@@ -2,7 +2,7 @@
   <div>
     {{ page }}
     <div>
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>
     </div>
   </div>
 </template>
@@ -10,11 +10,11 @@
 <script>
 
 export default {
-  name: 'home',
+  name: 'about',
   props: [],
   data() {
     return {
-      page: 'Home'
+      page: "About"
     }
   },
   methods: {

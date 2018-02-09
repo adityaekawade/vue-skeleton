@@ -7,6 +7,7 @@
     "test": "mocha-webpack --webpack-config webpack.test.config.js --require client/spec/spec_helper.js \"client/spec/**/*_spec.js\""
   },
   "dependencies": {
+    "connect-history-api-fallback": "^1.5.0",
     "d3": "^3.5.17",
     "debug": "^2.6.8",
     "express": "^4.15.3",
